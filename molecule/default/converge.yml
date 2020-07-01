@@ -8,4 +8,4 @@
   tasks:
     - name: "Include kubernetes"
       include_role:
-        name: "kubernetes"
+        name: "ansible-kubernetes"
