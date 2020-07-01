@@ -1,0 +1,11 @@
+---
+- name: Converge
+  hosts: all
+  vars: 
+    docker_version: "19.03.8-0ubuntu1"
+  roles:
+    - asg1612.docker
+  tasks:
+    - name: "Include kubernetes"
+      include_role:
+        name: "kubernetes"

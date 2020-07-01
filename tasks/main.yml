@@ -1,0 +1,6 @@
+---
+# tasks file for kubernetes
+- name: test
+  apt: 
+    name: mc
+    state: present
